@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+  "name": "Trello Print Power-Up",
+  "description": "A Power-Up to add print functionality to Trello.",
+  "icon": {
+    "url": "https://example.com/icon.png"
+  },
+  "author": "Your Name",
+  "capabilities": [
+    "board-buttons"
+  ],
+  "board-buttons": [
+    {
+      "text": "Print",
+      "condition": "always",
+      "icon": {
+        "url": "https://example.com/print-icon.png",
+        "size": "small"
+      },
+      "url": "https://<ваш-логин-github>.github.io/trello-print-powerup/index.html",
+      "target": "InBoard"
+    }
+  ]
+}
