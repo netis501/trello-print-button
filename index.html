@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Print Trello</title>
+    <title>Print Trello Power-Up</title>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,9 +29,15 @@
     <h1>Trello Print Button</h1>
     <button class="print-button" onclick="printTrello()">Print</button>
     <script>
+        const t = window.TrelloPowerUp.iframe();
+
         function printTrello() {
             window.print();
         }
+
+        t.render(() => {
+            // Render the button
+        });
     </script>
 </body>
 </html>
