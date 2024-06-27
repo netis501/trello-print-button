@@ -3,7 +3,7 @@
   "name": "Trello Print Power-Up",
   "description": "A Power-Up to add print functionality to Trello.",
   "icon": {
-    "url": "https://example.com/icon.png"
+    "url": "https://netis501.github.io/trello-print-button/icon.png"
   },
   "author": "Your Name",
   "capabilities": [
@@ -14,10 +14,10 @@
       "text": "Print",
       "condition": "always",
       "icon": {
-        "url": "https://example.com/print-icon.png",
+        "url": "https://netis501.github.io/trello-print-button/print-icon.png",
         "size": "small"
       },
-      "url": "https://<ваш-логин-github>.github.io/trello-print-powerup/index.html",
+      "url": "https://netis501.github.io/trello-print-button/index.html",
       "target": "InBoard"
     }
   ]
